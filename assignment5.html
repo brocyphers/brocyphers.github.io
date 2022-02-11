@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment 4</title>
+        <style type="text/css">
+          .search-page {
+            font-family:Arial, sans-serif;
+          }
+          .text {
+            font-size: 14px;
+          }
+          .search-results {
+            margin-bottom: 20px;
+          }
+          .result-block {
+            margin-bottom: 35px;
+          }
+          .result-header {
+            margin-top: -8px;
+            margin-bottom: -8px;
+          }
+          .bottom-links {
+            margin-top: -12px;
+          }
+          .search-subsection {
+            margin-top: 20px;
+            margin-left: 20px;
+          }
+          .subsection-result {
+            margin-top: 10px;
+            margin-right: 12px;
+          }
+          .bottom-link {
+            margin-top: -8px;
+          }
+
+          .tg {
+            border-collapse:collapse;
+            border-spacing:0;
+          }
+          .tg td {
+            border-color:black;
+            border-style:solid;
+            border-width:2px;
+            font-family:Arial, sans-serif;
+            font-size:14px;
+            overflow:hidden;
+            padding:10px 5px;
+            word-break:normal;
+          }
+          .tg th {
+            border-color:black;
+            border-style:solid;
+            border-width:2px;
+            font-family:Arial, sans-serif;
+            font-size:14px;
+            font-weight:normal;
+            overflow:hidden;
+            padding:10px 5px;
+            word-break:normal;}
+          .tg .tg-fcvo {
+            background-color:#689169;
+            color:#202122;
+            font-size:55px;
+            text-align:center;
+            vertical-align:middle;
+            width:70px;
+            height:50px
+          }
+          .tg .tg-i219 {
+            background-color:#e4e2ce;
+            color:#202122;
+            font-size:55px;
+            text-align:center;
+            vertical-align:middle;
+            width:70px;
+            height:50px
+          }
+        </style>
+    </head>
+    <body>
+      <h1>Assignment 4</h1>
+
+      <div>
+        <h2 id="challenge1">Challenge 1: Table of Contents</h2>
+        <ul>
+          <li><a href="#challenge1">You are here!</a></li>
+          <li><a href="#challenge2">Chessboard</a></li>
+          <li><a href="#challenge3">Forms</a></li>
+          <li><a href="#challenge4">Google Search</a></li>
+          <li><a href="#challenge5">Accessibility</a></li>
+        </ul>
+        <p>Nothing was changed for this challenge</p>
+      </div>
+
+      <hr>
+
+      <div>
+        <h2 id="challenge2">Challenge 2: Build a Chessboard</h2>
+        <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-i219">♜</th>
+            <th class="tg-fcvo">♞</th>
+            <th class="tg-i219">♝</th>
+            <th class="tg-fcvo">♛</th>
+            <th class="tg-i219">♚</th>
+            <th class="tg-fcvo">♝</th>
+            <th class="tg-i219">♞</th>
+            <th class="tg-fcvo">♜</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-fcvo">♟︎</td>
+            <td class="tg-i219">♟︎</td>
+            <td class="tg-fcvo">♟︎</td>
+            <td class="tg-i219">♟︎</td>
+            <td class="tg-fcvo">♟︎</td>
+            <td class="tg-i219">♟︎</td>
+            <td class="tg-fcvo">♟︎</td>
+            <td class="tg-i219">♟︎</td>
+          </tr>
+          <tr>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+          </tr>
+          <tr>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+          </tr>
+          <tr>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+          </tr>
+          <tr>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+            <td class="tg-fcvo"></td>
+            <td class="tg-i219"></td>
+          </tr>
+          <tr>
+            <td class="tg-i219">♙</td>
+            <td class="tg-fcvo">♙</td>
+            <td class="tg-i219">♙</td>
+            <td class="tg-fcvo">♙</td>
+            <td class="tg-i219">♙</td>
+            <td class="tg-fcvo">♙</td>
+            <td class="tg-i219">♙</td>
+            <td class="tg-fcvo">♙</td>
+          </tr>
+          <tr>
+            <td class="tg-fcvo">♖</td>
+            <td class="tg-i219">♘</td>
+            <td class="tg-fcvo">♗</td>
+            <td class="tg-i219">♕</td>
+            <td class="tg-fcvo">♔</td>
+            <td class="tg-i219">♗</td>
+            <td class="tg-fcvo">♘</td>
+            <td class="tg-i219">♖</td>
+          </tr>
+        </tbody>
+        </table>
+        <p>For this challenge, I recolored each of the squares to make the pieces easier to see on the chessboard,
+          and modified the style attributes of the table border and square borders.
+      </div>
+
+      <hr>
+
+      <div>
+        <h2 id="challenge3">Challenge 3: Create a Form</h2>
+        <form action="/action_page.php" method="get">
+          <label for="fname">Full Name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age"><br><br>
+          <input type="checkbox" id="enjoy" value="Yes">
+          <label for="enjoy"> I enjoy HTML</label><br><br>
+          <input type="submit" value="Submit">
+        </form>
+        <p>Nothing was changed for this challenge</p>
+      </div>
+
+      <hr>
+
+      <div>
+        <h2 id="challenge4">Challenge 4: A Google Search Page</h2>
+
+        <div class="search-page">
+        <div class="search-results">
+        <p>About 1,530,000,000 results (0.61 seconds)</p>
+        </div>
+
+        <div>
+        <p class="text">https://www.colorado.edu › atlas</p>
+        <h3 class="result-header"><a href="https://www.colorado.edu/atlas/">ATLAS Institute | University of Colorado Boulder</a></h3>
+        <p class="text"><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong> for radical creativity and invention.
+          We transform ingenious <br>ideas into reality through research, ...</p>
+        </div>
+
+          <table class="search-subsection">
+          <tbody>
+            <tr>
+              <td>
+                <div class="subsection-result">
+                <h3 class="result-header"><a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative...</a></h3>
+                <p class="text">Radically interdisciplinary, ATLAS <br>graduate programs nurture ...</p>
+                </div>
+              </td>
+              <td>
+                <div class="subsection-result">
+                <h3 class="result-header"><a href="https://www.colorado.edu/atlas/academics">Academics | ATLAS Institute ...</a></h3>
+                <p class="text">Granted through the College of <br>Engineering and Applied ...</p>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="subsection-result">
+                <h3 class="result-header"><a href="https://www.colorado.edu/atlas/about-atlas">About ATLAS | ATLAS Institute ...</a></h3>
+                <p class="text">ATLAS is an interdisciplinary <br>institute for radical creativity and ...</p>
+                </div>
+              </td>
+              <td>
+                <div class="subsection-result">
+                <h3 class="result-header"><a href="https://www.colorado.edu/atlas/academics/undergraduate">Undergraduate Programs</a></h3>
+                <p class="text">Awarded through the College of <br>Engineering and Applied ...</p>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="subsection-result">
+                <h3 class="result-header"><a href="https://www.colorado.edu/atlas/faculty">Faculty | ATLAS Institute ...</a></h3>
+                <p class="text">Lecturer, co-chair Board of <br>Advisors • DESIGN, AR/VR ...</p>
+                </div>
+              </td>
+              <td>
+                <div class="subsection-result">
+                <h3 class="result-header"><a href="https://www.colorado.edu/atlas/research-creative">Research + Creative | ATLAS ...</a></h3>
+                <p class="text">Check out ATLAS <br>Research Showcase 2020.</p>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div>
+                <p class="text bottom-link"><a href="">More results from colorado.edu »</a></p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+        <div class="result-block">
+        <p class="text">https://www.colorado.edu › innovate › atlas-institute</p>
+        <h3 class="result-header"><a href="https://www.colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - University of ...</a></h3>
+        <p class="text">Resource that sponsors diverse interdisciplinary academic and research programs, challenging <br>
+          community members to explore, innovate, create and design well ...</p>
+        </div>
+
+        <div class="result-block">
+        <p class="text">https://www.linkedin.com › school › atlas-cu-boulder</p>
+        <h3 class="result-header"><a href="https://www.linkedin.com/school/atlas-cu-boulder/">ATLAS Institute at CU Boulder Employees, Location, Alumni</a></h3>
+        <p class="text">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas <br>
+          become reality. · <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p>
+        </div>
+
+        <div class="result-block">
+        <p class="text">https://typemoon.fandom.com › wiki › Atlas</p>
+        <h3 class="result-header"><a href="https://typemoon.fandom.com/wiki/Atlas">Atlas | TYPE-MOON Wiki | Fandom</a></h3>
+        <p class="text">It is an institute focused on the study and development of alchemy, but its members broke off <br>
+          from the mainstream modern practice of alchemy that originated in ...</p>
+        <p class="text bottom-link">‎<a href="">External Relationships · ‎Alchemist of Atlas · ‎Activities · ‎Headquarters</a></p>
+        </div>
+
+        <div class="result-block">
+        <p class="text">https://www.instagram.com › cu_atlas</p>
+        <h3 class="result-header"><a href="https://www.instagram.com/cu_atlas/?hl=en">CU Boulder, ATLAS Institute (@cu_atlas) • Instagram photos ...</a></h3>
+        <p class="text"><strong>ATLAS</strong> is a radically interdisciplinary <strong>institute</strong> for creative technologies,
+          computing and design<br> at the University of Colorado Boulder.</p>
+        </div>
+        </div>
+      </div>
+
+      <p>For this challenge, I added several classes to the headers, subresults, and text to uniformly adjust the margins. <br>
+        I also added the appropriate links to the updated search results and changed the font type and size. I also explored <br>
+        new tags and attributes specifically for this section. In HTML, I made use of the class and div tags so I could modify <br>
+        blocks of content instead of doing it line by line. In CSS, I discovered the margin and font attributes, which I <br>
+        used to adjust the spacing between the blocks of content and make the webpage seem more accurate.</p>
+      <p><a href="https://www.w3schools.com/css/css_margin.asp">CSS Margin Documentation</a></p>
+      <p><a href="https://www.w3schools.com/css/css_font.asp"> CSS Font Documentation</a></p>
+      <p><a href="https://www.w3schools.com/html/html_classes.asp">HTML Classes Documentation</a></p>
+
+      <hr>
+
+      <div>
+        <h2 id="challenge5">Challenge 5: Accessibility Concerns</h2>
+        <p>&emsp;Much of the internet presents challenges to those with visual impairments, as it is predominantly reliant on sight.<br>
+          In Challenge 2, there is a very low contrast ratio between the chess pieces and their matching colored space. A screen reader <br>
+          might also struggle identifying the unicode tags and telling the listener where a piece is within the board. This can be fixed in <br>
+          part by selecting different colors than black and white as the cell backgrounds.</p>
+        <p>&emsp;Navigating a website can also be difficult, which is why we use large headers to signal where content is. This challenge is also <br>
+          helped using a Table of Contents and hyperlinks. However, one oversight with this page is there is no way to get from one section <br>
+          to the other easily without going back to the Navigation Bar. This could be fixed with a bar that follows the user down the page <br>
+          to allow them to navigate more easily.</p>
+
+        <p>Added more details regarding accessibility concerns, as well as redoing formatting.</p>
+      </div>
+
+    </body>
+</html>
