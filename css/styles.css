@@ -1,0 +1,120 @@
+h1 {
+  font-family: urw-din, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  font-family: urw-din, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h3 {
+  font-family: urw-din-semi-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h4 {
+  font-family: urw-din, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h5 {
+  font-family: urw-din-semi-condensed, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h6 {
+  font-family: urw-din, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p {
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  border-width: 2px;
+  border-color: #555B6E;
+}
+
+ul:not(.exempt) {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #F9F9F9;
+  background-color: #555B6E;
+
+  transition: background-color 200ms ease-in-out;
+}
+
+li:not(.exempt) {
+  border-right: 1px solid #F9F9F9;
+  float: left;
+}
+
+li:not(.exempt) a {
+  display: block;
+  color: #F9F9F9;
+  background-color: #555B6E;
+
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li:last-child:not(.exempt) {
+  border-right: none;
+}
+
+li:not(.exempt) a:hover {
+  color: #000000;
+  background-color: #BEE3DB;
+}
+
+body {
+  color: #000000;
+  background-color: #FAF9F9;
+}
+
+.button {
+  color: #000000;
+  background-color: #FFD6BA;
+
+  border: none;
+  border-radius: 15px;
+
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 50px;
+
+  transition: background-color 200ms ease-in-out;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: #BEE3DB;
+}
+
+.button:active {
+  color: #F9F9F9;
+  background-color: #555B6E;
+}
+
+.exempt {
+  font-family: urw-din, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
