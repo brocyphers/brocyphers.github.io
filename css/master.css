@@ -357,7 +357,7 @@ h6 {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
-    color: inherit;
+    color: #000000;
     background-color: transparent;
   }
 
@@ -368,6 +368,8 @@ h6 {
     padding-bottom: 30px;
     padding-left: 25px;
     padding-right: 25px;
+    color: #000000;
+    background-color: inherit;
   }
 
   .navigation a:hover {
@@ -415,6 +417,10 @@ h6 {
   }
 
   .mobile-subhead {
+    display: none;
+  }
+
+  .mobile-subhead2 {
     display: none;
   }
 
