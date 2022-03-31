@@ -1,0 +1,8 @@
+button {
+  transition: color 1000ms ease-in-out;
+  font-size: 60px;
+}
+
+.is-red {
+  color: red;
+}
