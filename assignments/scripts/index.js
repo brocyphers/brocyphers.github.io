@@ -1,5 +1,5 @@
 window.onload = function () {
-    window.addEventListener('keydown', keypress);
+    window.addEventListener("keydown", keypress);
 
     var button = document.getElementById("button1");
     button.addEventListener("mouseover", onMouseover);

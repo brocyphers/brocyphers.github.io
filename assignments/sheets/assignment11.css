@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#prompt {
+    font-size: 25px;
+}
+
+#hidden {
+    display: none;
+}
+
+#button1 {
+    display: none;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #555B6E;
+    padding: 5px;
+    color: inherit;
+    background-color: rgb(245, 245, 245, .75);
+}
