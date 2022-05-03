@@ -8,17 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="./css/master.css">
+    <script src="./js/index.js" defer></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="slideshow">
+        <div class="carousel fade">
+            <img class="showcase" src="./assets/movement.png" alt="movement">
+        </div>
 
+        <div class="carousel fade">
+            <img class="showcase" src="./assets/predictability.png" alt="predictability">
+        </div>
+
+        <div class="carousel fade">
+            <img class="showcase" src="./assets/opacity.png" alt="opacity">
+        </div>
+    </div>
+
+    <div class="container">
         <div class="navigation">
-            <a href="./index.html">HOME</a>
+            <a href=" ./index.html">HOME</a>
             <a href="./work.html">WORK</a>
-            <img class="logo" src="./assets/logo.png" alt="logo">
+            <a class="logolink" href="./index.html">
+                <img class="logo" src="./assets/logo.png" alt="logo">
+            </a>
             <a href="./about.html">ABOUT</a>
-            <a href="./cv.html">CV</a>
+            <a class="cv" href="./cv.html">CV</a>
         </div>
 
         <h1 class="desktop-head">HELLO.</h1>
@@ -27,6 +43,12 @@
         <h1 class="mobile-head">HI.</h1>
         <h3 class="mobile-subhead">I'M BRODY CYPHERS.</h3>
         <h3 class="mobile-subhead2">GRAPHIC & GAME DESIGNER.</h3>
+
+        <div>
+            <span onclick="transition1()" class="dot"></span>
+            <span onclick="transition2()" class="dot"></span>
+            <span onclick="transition3()" class="dot"></span>
+        </div>
 
         <footer>© 2022 | Brody Cyphers</footer>
     </div>
